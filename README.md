@@ -26,6 +26,7 @@ _**Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin ka
 ```
 18 sayısı ortada olduğu için avarage case kapsamına girer.
 ```
+___
 
 ## Selection Sort
 
@@ -39,3 +40,36 @@ _**Yukaridaki dizinin Selection Sort'a göre ilk 4 adımını yazınız.**_
 [2, 3, 4, 5, 7, 9, 8, 15, 6]
 [2, 3, 4, 5, 6, 9, 8, 15, 7]
 ```
+___
+
+## Merge Sort
+
+[16,21,11,8,12,22]
+
+_**Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.**_
+
+```
+[16, 21, 11, 8, 12, 22]
+[16, 21, 11], [8, 12, 22]
+[16], [21, 11], [8], [12, 22]
+[16], [21], [11], [8], [12], [22]
+[21, 16], [11, 21], [8, 12], [22, 12]
+[21, 16, 11], [8, 12, 22]
+[8, 12, 21, 16, 11, 22]
+[8, 12, 11, 16, 21, 22]
+[8, 11, 12, 16, 21, 22]
+[8, 11, 12, 16, 21, 22]
+```
+
+_**Big-O gösterimini yazınız.**_
+
+```
+2^x=n
+x=log(n) 
+n*log(n)
+O(nlogn)
+```
+___
+
+## Binary Search Tree
+
