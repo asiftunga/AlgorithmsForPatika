@@ -1,6 +1,6 @@
 # Patika.dev Veri Yapilari ve Algoritmalar
 Bu repo patika.dev **veri yapilari ve algoritmalar** dersinin odevleri icin olusturulmustur
----
+___
 
 ## Insertion Sort
 
@@ -17,7 +17,8 @@ _**Yukarı verilen dizinin insortion sort türüne göre aşamalarını yazını
 ```
 _**Big-O gösterimini yazınız.**_
 ```
-Her döngü için, karşılaştırma ve yer değiştirme işlemleri için O(n) zaman gerekir ve her eleman icin bu islem tekrarlanacagindan dolayi
+Her döngü için, karşılaştırma ve yer değiştirme işlemleri için O(n) zaman gerekir 
+her eleman icin bu islem tekrarlanacagindan dolayi
 O(n) x O(n) = O(n^2) zaman gereklidir. 
 ```
 
