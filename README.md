@@ -73,3 +73,30 @@ ___
 
 ## Binary Search Tree
 
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+_**dizisinin Binary-Search-Tree aşamalarını yazınız.**_
+_**Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.**_
+
+```
+Root'u 7 olarak seciyoruz
+Sonrasinda 5 sayisini aliyoruz ve 7 den kucuk oldugu icin 7 nin soluna yerlestiriyoruz
+sonraki elemanimiz 1, 7 den ve 5 den kucuk oldugu icin 5 in sol tarafina eklenir
+siradaki eleman 8, 7 den buyuk oldugu icin 7 nin sag tarafina eklenir
+3 ise 7 ve 5 den küçük 1den büyük olduğu için 1 in sağına eklenir
+6 7den küçük, 5ten büyük oldugu icin 5in sağına eklenir
+0 7den küçük, 5ten küçük, 1 den küçük olduğundan 1in soluna eklenir
+9 7 den ve 8 den buyuk oldugu icin 8 in sagina eklenir
+4 7den küçük, 5ten küçük, 1den büyük, 3ten büyük olduğu için 3 un sagina eklenir
+2 7 ve 5 den kucuk, 1 den büyük, 3ten küçük oldugundan dolayi 3 un soluna eklenir
+
+              7  
+            /   \
+           5     8      
+          / \     \
+         1   6     9
+        / \    
+       0   3 
+          / \
+         2   4
+```
